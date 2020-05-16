@@ -3,8 +3,13 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
+  "scripts": {
+    "test": "mocha --watch"
+  },
   "dependencies": {
-    "express": "^4.17.1"
+    "chai": "^4.2.0",
+    "express": "^4.17.1",
+    "mocha": "^7.1.2"
   },
   "repository": "https://github.com/anna-gladzinska/tests-backend.git",
   "author": "Anna Gladzińska <agladzinska@gmail.com>"
